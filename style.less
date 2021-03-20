@@ -1,0 +1,131 @@
+* {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    color: #000;
+    background-color: #f0efef;
+    width: 1046px;
+    display: flex;
+    margin: auto;
+    font: 8pt sans-serif;
+    text-align: center;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    padding: 0px 10px 10px 10px;
+}
+.line-x {
+    display: flex;
+    
+    li {
+        height: 30px;
+        margin-top: 20px;
+        line-height: 15px;
+    }
+    span {
+        line-height: 20px;  color: #df7969;
+        font-weight: normal;
+    }
+}
+.line-y {
+    width: 54px;
+    height: 378px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+}
+.line-x li, .line-y li, .label li {
+    border: 1px solid transparent;
+    line-height: 50px;  
+    color: #df7969;
+    margin: 0px 2px 2px 0px;
+    width: 50px;
+    height: 50px;
+}
+span {
+    font: bold 12pt sans-serif;
+    display: block;
+    color: #1913A2;
+}
+.grp1-2 {
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    display: flex;
+    width: 108px;
+    height: 378px;
+
+    li {
+        margin: 0px 2px 2px 0px;
+        padding-top: 3px;
+        width: 50px;
+        height: 47px;
+        background-color: #679aff;
+        border: 1px solid #7c7b7b;
+    }
+}
+.grp3-12 {
+    width: 540px;
+    height: 216px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+    li {
+        background-color: #fc9a97;
+        border: 1px solid #808080;
+        width: 50px;
+        height: 47px;
+        margin: 0px 2px 2px 0px;
+        padding-top: 3px;
+    }
+}
+.grp13-18 {
+    height: 378px;
+    width: 324px;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-end;
+
+    li {
+        background-color: #fccc01;
+        border: 1px solid hsl(0, 0%, 50%);
+        height: 47px;
+        width: 50px;
+        margin: 0px 2px 2px 0px;
+        padding-top: 3px;
+    }
+    span {
+        color: #4a3a37;
+    }
+}
+.label {
+    margin: 9px 0px 0px 20px;
+    height: 108px;
+    width: 142px;
+    display: flex;
+    flex-flow: column wrap;
+
+    li {
+        height: 45px;
+        width: 95px;
+        margin: -10px -15px 2px 0px;
+    }
+}
+.noids {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    height: 108px;
+    width: 756px;
+
+    li {
+        background-color: #1bcc25;
+        border: 1px solid #696767;
+        margin: 0px 2px 2px 0px;
+        padding-top: 3px;
+        width: 50px;
+        height: 47px;
+    }
+} 
